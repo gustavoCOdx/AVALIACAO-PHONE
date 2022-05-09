@@ -8,12 +8,27 @@ body {
     background-color: #ECEFE8;
 }
 
+html{
+    white-space:nowrap;
+    }
+    body {
+    display:inline-block;
+    overflow-x: hidden
+    }
+
+    html, body 
+{ 
+ height: 100%;
+ overflow: hidden
+}
+
 .cabecalho {
     width: 1440px;
     margin: 0 auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding-left: 200px;
 }
 
 .menu {
@@ -93,7 +108,7 @@ body {
 
 .divisor {
     position: absolute;
-    width: 1917px;
+    width: 1915px;
     height: 0px;
     left: 0px;
     top: 59px;
@@ -134,4 +149,14 @@ body {
     top: 123px;
     background: url(.png);
     padding-left: 350px;
+}
+
+.fone {
+    position: absolute;
+    width: 671px;
+    height: 901px;
+    left: 879px;
+    top: 220px;
+    background: url(.png);
+    padding-left: 440px;
 }
